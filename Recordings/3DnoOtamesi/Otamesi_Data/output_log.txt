@@ -1,0 +1,39 @@
+Mono path[0] = 'C:/Users/Washer/Documents/CrudeFile/3DBideo/Recordings/3DnoOtamesi/Otamesi_Data/Managed'
+Mono config path = 'C:/Users/Washer/Documents/CrudeFile/3DBideo/Recordings/3DnoOtamesi/Otamesi_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Washer/Documents/CrudeFile/3DBideo/Recordings/3DnoOtamesi/Otamesi_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55276
+Broadcasting "[IP] 169.254.9.124 [Port] 55276 [Flags] 2 [Guid] 770884875 [EditorId] 125974922 [Version] 1048832 [Id] WindowsPlayer(LAPTOP-18JO8P6J) [Debug] 0" to [169.254.255.255:54997]...
+Started listening to [0.0.0.0:55276]
+PlayerConnection already initialized - listening to [0.0.0.0:55276]
+Player data archive not found at `C:/Users/Washer/Documents/CrudeFile/3DBideo/Recordings/3DnoOtamesi/Otamesi_Data/data.unity3d`, using local filesystem
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   Intel
+    VRAM:     1126 MB
+    Driver:   21.20.16.4542
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Washer\Documents\CrudeFile\3DBideo\Recordings\3DnoOtamesi\Otamesi_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Washer\Documents\CrudeFile\3DBideo\Recordings\3DnoOtamesi\Otamesi_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Washer\Documents\CrudeFile\3DBideo\Recordings\3DnoOtamesi\Otamesi_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Washer\Documents\CrudeFile\3DBideo\Recordings\3DnoOtamesi\Otamesi_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Washer\Documents\CrudeFile\3DBideo\Recordings\3DnoOtamesi\Otamesi_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Washer\Documents\CrudeFile\3DBideo\Recordings\3DnoOtamesi\Otamesi_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Washer\Documents\CrudeFile\3DBideo\Recordings\3DnoOtamesi\Otamesi_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Washer\Documents\CrudeFile\3DBideo\Recordings\3DnoOtamesi\Otamesi_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Washer\Documents\CrudeFile\3DBideo\Recordings\3DnoOtamesi\Otamesi_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Washer\Documents\CrudeFile\3DBideo\Recordings\3DnoOtamesi\Otamesi_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Washer\Documents\CrudeFile\3DBideo\Recordings\3DnoOtamesi\Otamesi_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\Washer\Documents\CrudeFile\3DBideo\Recordings\3DnoOtamesi\Otamesi_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\Washer\Documents\CrudeFile\3DBideo\Recordings\3DnoOtamesi\Otamesi_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Washer\Documents\CrudeFile\3DBideo\Recordings\3DnoOtamesi\Otamesi_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.045 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 6.052703 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 9bc -> priority: 1 
+  Thread -> id: 4bc0 -> priority: 1 
