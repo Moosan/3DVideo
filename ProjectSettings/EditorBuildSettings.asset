@@ -6,5 +6,5 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MyFolder/Scenes/3DVideoMobile.unity
-    guid: db369f03274fa824484519919f28cad9
+    path: Assets/MyFolder/Scenes/3DVideoPC.unity
+    guid: 05a501332faa21343ae7da5f6ac93c4d

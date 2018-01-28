@@ -19,18 +19,22 @@ public class eyeContoller : MonoBehaviour {
         kak.OnEndEditAsObservable().Subscribe(value => kakuChange(float.Parse(value)));
         kyori.OnValueChangedAsObservable().Subscribe(value => sisaChange(value));
         kaku.OnValueChangedAsObservable().Subscribe(value => kakuChange(value));
+
+        List<int> a = new List<int>();
+        
     }
     private void sisaChange(float sisa) {
         RightCamera.transform.localPosition = new Vector3(sisa, 0, 0);
         LeftCamera.transform.localPosition = new Vector3(-1 * sisa, 0, 0);
         kyo.text = sisa.ToString();
+        //kakuChange(kaku.value);
     }
     private void kakuChange(float kaku) {
-        if (kyori.value < 0) {
+        /*if (kyori.value < 0) {
             kaku *= -1;
-        }
-        RightCamera.transform.localRotation = Quaternion.Euler(new Vector3(0, -1 * kaku, 0));
-        LeftCamera.transform.localRotation = Quaternion.Euler(new Vector3(0, kaku, 0));
+        }*/
+        RightCamera.transform.rotation = Quaternion.Euler(new Vector3(transform.eulerAngles.x, -1 * kaku, 0));
+        LeftCamera.transform.rotation = Quaternion.Euler(new Vector3(transform.eulerAngles.x, kaku, 0));
         kak.text = kaku.ToString();
     }
 }
