@@ -15,26 +15,31 @@ public class eyeContoller : MonoBehaviour {
     private GameObject LeftCamera;
 
 	void Start () {
-        kyo.OnEndEditAsObservable().Subscribe(value => sisaChange(float.Parse(value)));
-        kak.OnEndEditAsObservable().Subscribe(value => kakuChange(float.Parse(value)));
+        kyo.OnValueChangedAsObservable().Subscribe(value => sisaChange(Parse(value)));
+        kak.OnValueChangedAsObservable().Subscribe(value => kakuChange(Parse(value)));
         kyori.OnValueChangedAsObservable().Subscribe(value => sisaChange(value));
         kaku.OnValueChangedAsObservable().Subscribe(value => kakuChange(value));
-
-        List<int> a = new List<int>();
-        
     }
     private void sisaChange(float sisa) {
         RightCamera.transform.localPosition = new Vector3(sisa, 0, 0);
         LeftCamera.transform.localPosition = new Vector3(-1 * sisa, 0, 0);
         kyo.text = sisa.ToString();
-        //kakuChange(kaku.value);
     }
     private void kakuChange(float kaku) {
-        /*if (kyori.value < 0) {
-            kaku *= -1;
-        }*/
         RightCamera.transform.rotation = Quaternion.Euler(new Vector3(transform.eulerAngles.x, -1 * kaku, 0));
         LeftCamera.transform.rotation = Quaternion.Euler(new Vector3(transform.eulerAngles.x, kaku, 0));
         kak.text = kaku.ToString();
+    }
+    private float Floor(float value) {
+        return (Mathf.Round(1000 * value) / 1000f);
+    }
+    private float Parse(string value) {
+        if (string.IsNullOrEmpty(value))
+        {
+            return 0f;
+        }
+        else {
+            return float.Parse(value);
+        }
     }
 }

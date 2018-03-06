@@ -16,12 +16,15 @@ public class Yoici : MonoBehaviour {
         RotateObj.SetValue(R);
         deltangle = 360 / (float)objCount;
         obj.transform.parent = transform;
+        obj.SetActive(true);
         objArray = new RotateObj[objCount];
         objArray[0] = new RotateObj(obj, 0, H);
         objArray[0].UpdatePos();
+        
         for (int i = 1; i < objCount; i++) {
             var ob = Instantiate(obj);
             ob.transform.parent = transform;
+            ob.SetActive(true);
             objArray[i] = new RotateObj(ob, i * deltangle, H);
             objArray[i].UpdatePos();
         }
