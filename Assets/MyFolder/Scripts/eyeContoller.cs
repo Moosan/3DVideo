@@ -23,6 +23,7 @@ public class eyeContoller : MonoBehaviour {
         kaku.OnValueChangedAsObservable().Subscribe(value => kakuChange(value));
     }
     private void sisaChange(string sisa) {
+        if (sisa == "") return;
         kyo.text = sisa;
         var a = float.Parse(sisa);
         RightCamera.transform.localPosition = new Vector3(a, 0, 0);
@@ -36,6 +37,7 @@ public class eyeContoller : MonoBehaviour {
     }
 
     private void kakuChange(string kaku) {
+        if (kaku == "") return;
         kak.text = kaku.ToString();
         var a = float.Parse(kaku);
         RightCamera.transform.rotation = Quaternion.Euler(new Vector3(transform.eulerAngles.x, -1 * a, 0));
@@ -71,7 +73,7 @@ public class eyeContoller : MonoBehaviour {
     private string ValueParse(string value) {
         float a;
         if (string.IsNullOrEmpty(value)) {
-            return "0";
+            return "";
         }
         if (float.TryParse(value, out a))
         {
