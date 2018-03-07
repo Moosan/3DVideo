@@ -1,10 +1,10 @@
 Mono path[0] = 'C:/Users/Washer/Documents/CrudeFile/3DBideo/Recordings/3DVideo/3DVideo_Data/Managed'
 Mono config path = 'C:/Users/Washer/Documents/CrudeFile/3DBideo/Recordings/3DVideo/3DVideo_Data/Mono/etc'
 PlayerConnection initialized from C:/Users/Washer/Documents/CrudeFile/3DBideo/Recordings/3DVideo/3DVideo_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55350
-Multi-casting "[IP] 10.32.218.5 [Port] 55350 [Flags] 2 [Guid] 812512309 [EditorId] 1879370279 [Version] 1048832 [Id] WindowsPlayer(LAPTOP-18JO8P6J) [Debug] 0" to [225.0.0.222:54997]...
-Started listening to [0.0.0.0:55350]
-PlayerConnection already initialized - listening to [0.0.0.0:55350]
+PlayerConnection initialized network socket : 0.0.0.0 55131
+Multi-casting "[IP] 10.32.216.31 [Port] 55131 [Flags] 2 [Guid] 1658290486 [EditorId] 1879370279 [Version] 1048832 [Id] WindowsPlayer(LAPTOP-18JO8P6J) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55131]
+PlayerConnection already initialized - listening to [0.0.0.0:55131]
 Player data archive not found at `C:/Users/Washer/Documents/CrudeFile/3DBideo/Recordings/3DVideo/3DVideo_Data/data.unity3d`, using local filesystem
 Initialize engine version: 2017.1.0f3 (472613c02cf7)
 GfxDevice: creating device client; threaded=1
@@ -31,7 +31,7 @@ Platform assembly: C:\Users\Washer\Documents\CrudeFile\3DBideo\Recordings\3DVide
 Loading C:\Users\Washer\Documents\CrudeFile\3DBideo\Recordings\3DVideo\3DVideo_Data\Managed\TextMeshPro-2017.1-1.0.56-Runtime.dll into Unity Child Domain
 Platform assembly: C:\Users\Washer\Documents\CrudeFile\3DBideo\Recordings\3DVideo\3DVideo_Data\Managed\System.dll (this message is harmless)
 Platform assembly: C:\Users\Washer\Documents\CrudeFile\3DBideo\Recordings\3DVideo\3DVideo_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.083 seconds
+- Completed reload, in  0.055 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
@@ -63,7 +63,7 @@ The referenced script on this Behaviour (Game Object 'Cube (1)') is missing!
  
 (Filename: C:\buildslave\unity\build\Runtime/Mono/MonoBehaviour.cpp Line: 1758)
 
-UnloadTime: 6.682035 ms
+UnloadTime: 6.127778 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2a40 -> priority: 1 
-  Thread -> id: 564 -> priority: 1 
+  Thread -> id: 4d54 -> priority: 1 
+  Thread -> id: 2ef0 -> priority: 1 
