@@ -40,15 +40,15 @@ public class eyeContoller : MonoBehaviour {
         if (kaku == "") return;
         kak.text = kaku.ToString();
         var a = float.Parse(kaku);
-        RightCamera.transform.rotation = Quaternion.Euler(new Vector3(transform.eulerAngles.x, -1 * a, 0));
-        LeftCamera.transform.rotation = Quaternion.Euler(new Vector3(transform.eulerAngles.x, a, 0));
+        RightCamera.transform.localRotation = Quaternion.Euler(new Vector3(0, -1 * a, 0));
+        LeftCamera.transform.localRotation = Quaternion.Euler(new Vector3(0, a, 0));
         
     }
     private void kakuChange(float kaku)
     {
         kak.text = kaku.ToString();
-        RightCamera.transform.rotation = Quaternion.Euler(new Vector3(transform.eulerAngles.x, -1 * kaku, 0));
-        LeftCamera.transform.rotation = Quaternion.Euler(new Vector3(transform.eulerAngles.x, kaku, 0));
+        RightCamera.transform.localRotation = Quaternion.Euler(new Vector3(0, -1 * kaku, 0));
+        LeftCamera.transform.localRotation = Quaternion.Euler(new Vector3(0, kaku, 0));
 
     }
     private float Floor(float value) {
