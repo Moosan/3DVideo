@@ -10,7 +10,7 @@ public class Yoici : MonoBehaviour {
     [SerializeField]private int objCount;
     private RotateObj[] objArray;
     [SerializeField] private float RotateSpeed;
-    public bool rotate;
+    private bool rotate=true;
     private void Start()
     {
         RotateObj.SetValue(R);
@@ -37,6 +37,9 @@ public class Yoici : MonoBehaviour {
             ob.AddAngle(ang);
             ob.UpdatePos();
         }
+    }
+    public void SetRotateBool() {
+        rotate = !rotate;
     }
 }
 public class RotateObj {

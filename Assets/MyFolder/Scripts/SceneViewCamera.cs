@@ -20,10 +20,10 @@ public class SceneViewCamera : MonoBehaviour
     private void Update()
     {
         MouseUpdate();
-        if (Input.GetKeyDown(KeyCode.Space)) {
+        if (Input.GetKeyDown(KeyCode.K)) {
             transform.position += new Vector3(0,0.1f,0);
         }
-        if (Input.GetKeyDown(KeyCode.V)) {
+        if (Input.GetKeyDown(KeyCode.J)) {
             transform.position -= new Vector3(0, 0.1f, 0);
         }
         return;
