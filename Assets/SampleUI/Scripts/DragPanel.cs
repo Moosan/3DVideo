@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.EventSystems;
-using System.Collections;
 
 public class DragPanel : MonoBehaviour, IPointerDownHandler, IDragHandler {
 	
@@ -41,7 +39,7 @@ public class DragPanel : MonoBehaviour, IPointerDownHandler, IDragHandler {
 		Vector3 maxPosition = parentRectTransform.rect.max - panelRectTransform.rect.max;
 		
 		pos.x = Mathf.Clamp (panelRectTransform.localPosition.x, minPosition.x, maxPosition.x);
-		pos.y = Mathf.Clamp (panelRectTransform.localPosition.y, minPosition.y, maxPosition.y);
+		pos.y =Mathf.Clamp (panelRectTransform.localPosition.y, maxPosition.y, maxPosition.y);
 		
 		panelRectTransform.localPosition = pos;
 	}
