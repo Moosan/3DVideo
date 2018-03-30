@@ -18,9 +18,7 @@ public class ResizePanel : MonoBehaviour, IPointerDownHandler, IDragHandler {
 	public void OnPointerDown (PointerEventData data) {
 		originalSizeDelta = panelRectTransform.sizeDelta;
 		RectTransformUtility.ScreenPointToLocalPointInRectangle (panelRectTransform, data.position, data.pressEventCamera, out originalLocalPointerPosition);
-        dragPanel.
 	}
-	
 	public void OnDrag (PointerEventData data) {
 		if (panelRectTransform == null)
 			return;
