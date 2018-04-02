@@ -5,12 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/MyFolder/Scenes/3DVideoPC.unity
     guid: 05a501332faa21343ae7da5f6ac93c4d
   - enabled: 0
     path: Assets/MyFolder/Scenes/SimpleSolarSystem.unity
     guid: 0fba9a293f4125f4186010683a397ce2
-  - enabled: 1
+  - enabled: 0
     path: Assets/MyFolder/Scenes/3DVideoWeb.unity
     guid: af879304729e6d34eb406d1482cba63c
