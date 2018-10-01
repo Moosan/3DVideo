@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: BYAnagryphMaterial
-  m_Shader: {fileID: 4800000, guid: 0d479a9d654a5f942992555a6f5022c4, type: 3}
+  m_Shader: {fileID: 4800000, guid: 0fc9ba0796714ee47b51ea0d48855b39, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0

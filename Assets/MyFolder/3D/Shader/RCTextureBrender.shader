@@ -43,6 +43,7 @@ Shader "Custom/RCTextureBrender" {
 		fixed4 c = tex2D(_MainTex, IN.uv_MainTex) * _Color;
 		fixed4 c2 = tex2D(_SubTex, IN.uv_MainTex) * _Color; // 
 		fixed3 rgb;
+		
 		rgb.x = c2.rgb.x;
 		rgb.y = c.rgb.y;
 		rgb.z = c.rgb.z;
